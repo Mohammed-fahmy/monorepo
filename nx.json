@@ -24,7 +24,7 @@
           "test",
           "e2e"
         ],
-        "accessToken": "MDI1MDJiYzEtNTdmZi00ZTNhLWFkZjAtZjRkNTIwY2ZlOGZmfHJlYWQtd3JpdGU="
+        "accessToken": "ZDA5ZjUzZjctNTVhNC00NjAzLWE0YzUtOWY3MzE3NWYyYzFkfHJlYWQtd3JpdGU="
       }
     }
   },
@@ -39,7 +39,16 @@
   "generators": {
     "@nrwl/react": {
       "application": {
+        "style": "css",
+        "linter": "eslint",
         "babel": true
+      },
+      "component": {
+        "style": "css"
+      },
+      "library": {
+        "style": "css",
+        "linter": "eslint"
       }
     },
     "@nrwl/next": {
